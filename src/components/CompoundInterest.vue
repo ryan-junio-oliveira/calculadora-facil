@@ -14,7 +14,7 @@
       </div>
 
       <div>
-        <label for="rate" class="block text-gray-700">Porcentagem de desconto (%):</label>
+        <label for="rate" class="block text-gray-700">Taxa de juros (%):</label>
         <input
           v-model="rate"
           type="number"
@@ -43,7 +43,7 @@
     </form>
 
     <div v-if="result !== null" class="mt-4 p-4 bg-green-100 text-green-800 rounded-lg">
-      <p class="text-lg font-bold">Total Desconto: {{ result }}</p>
+      <p class="text-lg font-bold">Valor Total: {{ result }}</p>
     </div>
   </div>
 </template>
