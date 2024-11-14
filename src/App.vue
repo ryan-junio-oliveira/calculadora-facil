@@ -36,8 +36,8 @@
                 </svg></button>
               <!-- Dropdown menu -->
               <div id="dropdownNavbar"
-                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-50 dark:bg-gray-700 dark:divide-gray-600">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400 text-xl" aria-labelledby="dropdownLargeButton">
                   <li>
                     <router-link to="/" class="hover:text-blue-500 p-2" active-class="text-blue-500">
                       Juros Simples
@@ -94,13 +94,12 @@
       </div>
     </nav>
 
-
-
-
     <!-- Main Content -->
-    <main class="container mx-auto flex-grow p-6">
-      <router-view></router-view>
-    </main>
+    <section class="bg-gray-200">
+      <main class="container mx-auto flex-grow p-6">
+        <router-view></router-view>
+      </main>
+    </section>
 
     <!-- Footer -->
     <footer class="bg-gray-800 text-white p-4 text-center">
