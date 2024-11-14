@@ -129,6 +129,10 @@ export default {
 <style scoped>
 /* Estilos personalizados */
 
+section{
+  height: 100vh;
+}
+
 main {
   display: flex;
   flex-direction: column;
